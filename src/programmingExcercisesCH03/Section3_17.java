@@ -66,10 +66,6 @@ public class Section3_17 {
 			}else if (computer-number==-2) {
 				System.out.println("The computer is "+scsRckPprForComputer+". You are "+scsRckPprForUser+". Computer won");
 			}
-		}
-	
-		
-		
+		}	
 	}
-
 }
