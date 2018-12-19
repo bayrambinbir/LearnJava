@@ -22,7 +22,7 @@ public class RockScissorPaperGame {
 		int number = input.nextInt();
 		
 		Random rn = new Random();
-		int computer = rn.nextInt(3-1)+1;
+		int computer = rn.nextInt(3-1+1)+1;
 		String scsRckPprForUser ="";
 		String scsRckPprForComputer = "";
 		
