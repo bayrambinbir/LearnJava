@@ -11,7 +11,7 @@ public class Section3_17 {
 		 * scissor-rockpaper game. (A scissor can cut a paper, a rock can knock a
 		 * scissor, and a paper can wrap a rock.) The program randomly generates a
 		 * number 1, 2, and 3 representing scissor, rock, and paper. The program prompts
-		 * the user to enter a number 0, 1, or 2 and displays a message indicating
+		 * the user to enter a number 1, 2, or 3 and displays a message indicating
 		 * whether the user or the computer wins, loses, or draws.
 		 */
 		
@@ -22,7 +22,7 @@ public class Section3_17 {
 		int number = input.nextInt();
 		
 		Random rn = new Random();
-		int computer = rn.nextInt(3-1)+1;
+		int computer = rn.nextInt(3-1+1)+1;
 		String scsRckPprForUser ="";
 		String scsRckPprForComputer = "";
 		
@@ -66,10 +66,6 @@ public class Section3_17 {
 			}else if (computer-number==-2) {
 				System.out.println("The computer is "+scsRckPprForComputer+". You are "+scsRckPprForUser+". Computer won");
 			}
-		}
-	
-		
-		
+		}	
 	}
-
 }
